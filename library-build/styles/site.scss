@@ -1,0 +1,56 @@
+// site styles
+
+@import 'compass/css3';
+@import '_vars';
+
+html, body, #wrap-outer {
+    height: 100%;
+}
+
+#thanks {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 600px;
+    margin-left: -320px;
+    z-index: 1;
+    background: $grey-light;
+    padding: 1em 2em;
+    @include border-radius( 5px );
+}
+
+#ball-pit {
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    right: 0;
+    background: $deep-grey-dark;
+}
+
+.pjs-circle {
+    display: block;
+    background: rgba(230, 100, 100, 0.9);
+    background: image-url("blank_avatar.png") no-repeat 50% 50%;
+    border: 2px solid $grey;
+    @include box-sizing( border-box );
+    @include background-size( 133% );
+    @include border-radius( 50% );
+}
+
+#replace {
+    position: relative;
+    display: inline-block;
+    color: transparentize($grey-light, 1);
+    font-weight: bold;
+
+    &:after {
+        content: attr(data-text);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        color: $deep-grey-dark;
+    }
+}
