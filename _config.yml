@@ -1,0 +1,20 @@
+permalink: /:year-:month-:day/:title
+markdown: rdiscount
+exclude: ["README.md", "CNAME", "LICENSE", "build", "config.rb", "Gruntfile.js", "package.json", "jshint.json"]
+
+title : "Ball Pit"
+id : "" # changeme
+description : "A thank you to some of our paid subscribers" # changeme
+thumb: "thumb.gif" # changem
+version: "0.0.1"
+
+ml_url: "http://minutelabs.io"
+ml_library: "http://labs.minutelabs.io/library"
+ml_assets: "http://labs.minutelabs.io/assets"
+library_path: "library" # changeme
+
+show :
+  branding: true
+  details: true
+  comments: true
+
