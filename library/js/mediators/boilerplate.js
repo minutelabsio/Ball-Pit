@@ -268,7 +268,7 @@ define(
                 self.after('domready').then(function(){
                     self.onDomReady();
                 }).otherwise(function(){
-                    console.log(arguments)
+                    // console.log(arguments)
                 });
             },
 
