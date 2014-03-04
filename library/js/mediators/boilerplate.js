@@ -159,7 +159,7 @@ define(
             // constrain objects to these bounds
             edgeBounce = Physics.behavior('edge-collision-detection', {
                 aabb: viewportBounds,
-                restitution: 0.2,
+                restitution: 0.75,
                 cof: 0.8
             });
 
