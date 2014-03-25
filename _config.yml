@@ -6,7 +6,7 @@ title : "Ball Pit"
 id : "" # changeme
 description : "A thank you to some of our paid subscribers" # changeme
 thumb: "thumb.gif" # changeme
-version: "0.0.1"
+version: "0.0.2"
 
 ml_url: "http://minutelabs.io"
 ml_library: "http://labs.minutelabs.io/library"
