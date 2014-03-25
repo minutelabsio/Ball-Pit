@@ -5,13 +5,13 @@ exclude: ["README.md", "CNAME", "LICENSE", "build", "config.rb", "Gruntfile.js",
 title : "Ball Pit"
 id : "" # changeme
 description : "A thank you to some of our paid subscribers" # changeme
-thumb: "thumb.gif" # changem
+thumb: "thumb.gif" # changeme
 version: "0.0.1"
 
 ml_url: "http://minutelabs.io"
 ml_library: "http://labs.minutelabs.io/library"
 ml_assets: "http://labs.minutelabs.io/assets"
-library_path: "library-build" # changeme
+library_path: "library-build"
 
 show :
   branding: true

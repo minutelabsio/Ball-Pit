@@ -1,5 +1,7 @@
 [
+    { "name": "(you?)", "img": "you.png", "position": "50% 50%" },
     { "name": "Henry Reich", "img": "henry.png", "position": "50% 30%" },
     { "name": "Jasper Palfree", "img": "jasper.jpg", "position": "40% 30%" },
-    { "name": "Ever Salazar", "img": "ever.jpg", "position": "50% 50%" }
+    { "name": "Ever Salazar", "img": "ever.jpg", "position": "50% 50%" },
+    { "name": "Quinby Hunter", "img": "qhunter.jpg", "position": "40% 0" }
 ]
